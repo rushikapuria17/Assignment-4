@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const div1 = document.getElementById("identity");
+    const para = this.createElement("p");
+    para.textContent = "Student Id: 200556077 Student Name: Rushi Kiranbhai Kapuria";
+    div1.appendChild(para);
+    // The api uses is on this website https://developer.nytimes.com/docs/top-stories-product/1/overview
     // Api key to authorize access to the api.
     const apiKey = 'eXWyCSjiJTQ7WcGA0MMRChhK5qip3OAb';
     // creating variables to get the elements from the html.
